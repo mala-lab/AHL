@@ -25,7 +25,7 @@ DATA_PATH/
             ...
     ...
 ```
-#### Step 2. Running the Base Model(["DRA"](https://github.com/Choubo/DRA/tree/main), ["DevNet"](https://github.com/Choubo/deviation-network-image)) and Save Multi-scale Features
+#### Step 2. Running the Base Model([DRA](https://github.com/Choubo/DRA/tree/main), [DevNet](https://github.com/Choubo/deviation-network-image)) and Save Multi-scale Features
 
 #### Step 3. Save Augmentation Features
 
