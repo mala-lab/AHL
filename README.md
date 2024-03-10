@@ -25,9 +25,9 @@ DATA_PATH/
             ...
     ...
 ```
-#### Step 2. Running the base model and save multi-scale features
+#### Step 2. Running the Base Model and Save Multi-scale Features
 
-#### Step 3. Save augmentation features
+#### Step 3. Save Augmentation Features
 
 #### Step 4. Running AHL
 
