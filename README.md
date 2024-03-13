@@ -5,6 +5,15 @@ Official implementation of ["Anomaly Heterogeneity Learning for Open-set Supervi
 The code will be released soon.
 
 ## Setup
+numpy >= 1.22.3
+python >= 3.10.4
+pytorch >= 1.12.1
+torch >= 1.12.1
+torchvision >= 0.13.1
+tqdm >= 4.64.0
+scipy >= 1.10.1
+scikit-image >= 0.19.2
+einops >= 0.6.0
 
 ## Run
 #### Step 1. Setup the Anomaly Detection dataset
