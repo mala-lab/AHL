@@ -18,7 +18,7 @@ The code will be released soon.
 ## Run
 #### Step 1. Setup the Anomaly Detection dataset
 
-Download the Anomaly Detection Dataset and convert it to MVTec AD format. (For datasets we used in the paper, we provided the convert script.) 
+Download the Anomaly Detection Dataset and convert it to MVTec AD format. (For datasets we used in the paper, we provided [the convert script](https://github.com/mala-lab/AHL/tree/main/data).) 
 The dataset folder structure should look like:
 
 ```
@@ -36,7 +36,48 @@ DATA_PATH/
 ```
 #### Step 2. Running the base model([DRA](https://github.com/Choubo/DRA/tree/main), [DevNet](https://github.com/Choubo/deviation-network-image)) and save model weights.
 
-#### Step 3. Save augmentation features and multi-scale features extracted from base model's feature extractor.
+#### Step 3. Save augmentation features and multi-scale features extracted from base model's feature extractor. The dataset folder structure should look like:
+```
+DATA_PATH/
+    subset_1/
+        feature/
+            train/
+                good/
+            test/
+                good/
+                defect_class_1/
+                defect_class_2/
+                defect_class_3/
+                ...
+        feature_scale/
+            train/
+                good/
+            test/
+                good/
+                defect_class_1/
+                defect_class_2/
+                defect_class_3/
+                ...
+        aug_dream/
+            train/
+                good/
+        aug_dream_scale/
+            train/
+                good/
+        aug_mix/
+            train/
+                good/
+        aug_mix_scale/
+            train/
+                good/
+        aug_paste/
+            train/
+                good/
+        aug_paste_scale/
+            train/
+                good/
+    ...
+```
 
 #### Step 4. Running AHL
 
