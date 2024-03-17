@@ -34,7 +34,7 @@ DATA_PATH/
 ```
 #### Step 2. Running the base model([DRA](https://github.com/Choubo/DRA/tree/main), [DevNet](https://github.com/Choubo/deviation-network-image)) and save model weights.
 
-#### Step 3. [Save augmentation features](https://github.com/mala-lab/AHL/tree/main/datasets) and multi-scale features extracted from base model's feature extractor. The dataset folder structure should look like:
+#### Step 3. Save [augmentation features](https://github.com/mala-lab/AHL/tree/main/datasets) and multi-scale features extracted from base model's feature extractor. The dataset folder structure should look like:
 ```
 DATA_PATH/
     subset_1/
