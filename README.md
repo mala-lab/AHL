@@ -42,40 +42,22 @@ DATA_PATH/
     subset_1/
         feature/
             train/
-                good/
             test/
-                good/
-                defect_class_1/
-                defect_class_2/
-                defect_class_3/
-                ...
         feature_scale/
             train/
-                good/
             test/
-                good/
-                defect_class_1/
-                defect_class_2/
-                defect_class_3/
-                ...
         aug_dream/
             train/
-                good/
         aug_dream_scale/
             train/
-                good/
         aug_mix/
             train/
-                good/
         aug_mix_scale/
             train/
-                good/
         aug_paste/
             train/
-                good/
         aug_paste_scale/
             train/
-                good/
     ...
 ```
 
