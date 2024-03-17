@@ -61,7 +61,7 @@ DATA_PATH/
 
 #### Step 4. Running AHL
 ```python
-python main.py --dataset_root $path-to-dataset --classname $subset-name --feat_classname $subset-name-for-saved-features --experiment_dir=./experiment
+python main.py --dataset_root $path-to-dataset --classname $subset-name --feat_classname $subset-name-for-saved-features --experiment_dir $path-to-save-model-weights
 ```
 
 ## Citation
