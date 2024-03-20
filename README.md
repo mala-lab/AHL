@@ -67,10 +67,10 @@ python main.py --dataset_root $path-to-dataset --classname $subset-name --feat_c
 ## Citation
 
 ```bibtex
-@article{zhu2023anomaly,
+@inproceedings{zhu2024anomaly,
   title={Anomaly Heterogeneity Learning for Open-set Supervised Anomaly Detection},
   author={Zhu, Jiawen and Ding, Choubo and Tian, Yu and Pang, Guansong},
-  journal={arXiv preprint arXiv:2310.12790},
-  year={2023}
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  year={2024}
 }
 ```
