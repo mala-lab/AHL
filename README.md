@@ -2,8 +2,6 @@
 
 Official implementation of ["Anomaly Heterogeneity Learning for Open-set Supervised Anomaly Detection"](https://arxiv.org/pdf/2310.12790.pdf).(accepted by CVPR 2024)
 
-updating...
-
 ## Setup
 - numpy >= 1.22.3
 - python >= 3.10.4
